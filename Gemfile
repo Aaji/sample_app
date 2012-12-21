@@ -3,8 +3,13 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 
  
+group :development do
+	gem 'sqlite3'
+end
 
-gem 'sqlite3'
+group :production do
+	gem "pg"
+end
 
 group :development do
 	gem 'rspec-rails', '2.0.1'
