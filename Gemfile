@@ -18,7 +18,6 @@ group :development do
 	gem 'guard-rspec', '1.2.1'
 	gem 'rb-fsevent', '0.9.1'
 	gem 'growl', '1.0.3'
-	gem 'growl_notifier', '1.2.1'
 	gem 'libnotify', '0.8.0'
 	gem 'ruby_gntp', '0.3.4'
 end
